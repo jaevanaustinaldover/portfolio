@@ -5,10 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Homepage</title>
-		<meta name="description" content="A simple slideshow component with individual slide layouts and effects" />
-		<meta name="keywords" content="slideshow, images, layout, asymmetric, css, html, javascript, template" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="description" content="simple portfolio homepage with a dynamic slideshow" />
+		<meta name="keywords" content="slideshow, images, layout, asymmetric, css, html, javascript, template, svg, CSS3, JQuery." />
+		<meta name="author" content="Jae Van Austin Aldover" />
 		<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
