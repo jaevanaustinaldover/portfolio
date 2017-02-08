@@ -312,7 +312,7 @@ a:focus {
 
 #port_header{
 	font-size: 50px;
-	color: #fff;
+	color: white;
 	font-family: 'Caveat Brush', cursive;
 }
 
@@ -320,4 +320,13 @@ a:focus {
 	font-size: 30px;
 	color: #e8a847;
 	font-family: 'Indie Flower', cursive;
+}
+
+#port_slide{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#port_subslide{
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
 }

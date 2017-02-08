@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,9 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
 		<link rel="stylesheet" type="text/css" href="css/slideshow_layouts.css" />
-		<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Indie+Flower" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Gloria+Hallelujah|Indie+Flower" rel="stylesheet">
+		
+
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   		<style>
@@ -24,6 +26,14 @@
 		<script>document.documentElement.className = 'js';</script>
 	</head>
 	<body>
+
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+		</div>
 		<svg class="hidden">
 			<defs>
 				<symbol id="icon-prev" viewBox="0 0 100 50">
@@ -46,7 +56,7 @@
 				<p class="codrops-header__tagline" id="port_tagline">A Personal Web Portfolio</p>
 				<nav class="dummy-links">
 					<a class="dummy-links__link dummy-links__link--current port_nav" href="#">Home</a>
-					<a class="dummy-links__link port_nav" href="">About Me</a>
+					<a class="dummy-links__link port_nav" href="../about/about.php">About Me</a>
 					<a class="dummy-links__link port_nav" href="#">Portfolio</a>
 					<a class="dummy-links__link port_nav" href="#">Gallery</a>
 					<a class="dummy-links__link port_nav" href="#">Contact</a>
@@ -55,13 +65,15 @@
 			<div class="slideshow" tabindex="0">
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/1.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/2.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/jansport1.png);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/schoolpic1.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main">Now or Never</h3>
-						<p class="slide__title-sub">Our battered suitcases were piled on the sidewalk again; we had longer ways to go. But no matter, the road is life. <a href="#">Read more</a></p>
+						<h3 class="slide__title-main" id="port_slide">Who am I?</h3>
+						<p class="slide__title-su" id="port_subslide">You can understand me better first hand by checking things about me. 
+							<a href="about/about.php">Read more</a>
+						</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-2" data-layout="layout2">
@@ -73,8 +85,8 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/9.jpg);"><h4 class="slide__img-caption">Today is someday</h4></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main">Crazy Breed</h3>
-						<p class="slide__title-sub">There's those thinking more or less less is more. But if less is more how you're keeping score?</p>
+						<h3 class="slide__title-main" id="port_slide">Crazy Bunch</h3>
+						<p class="slide__title-sub" id="port_subslide">Though I prefer to be alone at times. When I'm available and not quite busy, I spend my time mostly with my friends</given>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-3" data-layout="layout3">
@@ -88,8 +100,8 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/12.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main">Safe Harbor</h3>
-						<p class="slide__title-sub">Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do.</p>
+						<h3 class="slide__title-main" id="port_slide">What I do is what I like</h3>
+						<p class="slide__title-sub" id="port_subslide">Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do.</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
@@ -100,8 +112,8 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/13.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main">Our Freedom</h3>
-						<p class="slide__title-sub">For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.</p>
+						<h3 class="slide__title-main" id="port_slide">Goals and Dreams</h3>
+						<p class="slide__title-sub" id="port_subslide">Remember that nothing worthwhile is easy. Experiencing hardship is part of the journey.</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-5" data-layout="layout5">
@@ -126,8 +138,10 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/18.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main">Stopping Time</h3>
-						<p class="slide__title-sub">Emancipate yourselves from mental slavery, none but ourselves can free our minds.</p>
+						<h3 class="slide__title-main" id="port_slide">Life Gallery</h3>
+						<p class="slide__title-sub" id="port_subslide">I know I'm still growing more and more as I experience life. But my main goal is to leave a mark.
+						<a href="gallery/default.php">View Gallery</a>
+						</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-6" data-layout="layout6">
@@ -137,8 +151,11 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/3.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main">Walk the Walk</h3>
-						<p class="slide__title-sub">The trouble with being in the rat race is that even if you win, you're still a rat.</p>
+						<h3 class="slide__title-main" id="port_slide">Plans for the Future</h3>
+						<p class="slide__title-sub" id="port_subslide">So the future has always been uncertain, unpredictable, unknown. But making plans will steer me to a better one
+							<a href="portfolio/default.php">View Portfolio.</a>
+						</p>
+						</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-7" data-layout="layout7">
@@ -148,48 +165,42 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/4.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main">Caged Birds</h3>
-						<p class="slide__title-sub">They told me to grow roots, instead I grew wings. Birds born in a cage think flying is an illness. </p>
+						<h3 class="slide__title-main" id="port_slide">You can talk to me</h3>
+						<p class="slide__title-sub" id="port_subslide">Im currently studying, but I'm usually available online. Email me or message me through facebook
+							<a href="contact/default.php">Contact me.</a>
+						</p>
+						</p>
 					</div>
 				</div><!-- /slide -->
 				<nav class="slideshow__nav slideshow__nav--arrows">
 					<button id="prev-slide" class="btn btn--arrow" aria-label="Previous slide"><svg class="icon icon--prev"><use xlink:href="#icon-prev"></use></svg></button>
 					<button id="next-slide" class="btn btn--arrow" aria-label="Next slide"><svg class="icon icon--next"><use xlink:href="#icon-next"></use></svg></button>
 				</nav>
-			</div><!-- /slideshow -->
+			</div><!-- /slideshow
 			<div class="content content--text">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<!-- Related demos -->
-			<section class="content content--related">
-				<p>If you enjoyed this demo you might also like:</p>
-				<a class="media-item" href="http://tympanus.net/Development/ImageGridEffects/">
-					<img class="media-item__img" src="img/related/ImageGridEffects.jpg">
-					<h3 class="media-item__title">Image Grid Effects</h3>
-				</a>
-				<a class="media-item" href="http://tympanus.net/Tutorials/PolaroidStackGrid/">
-					<img class="media-item__img" src="img/related/PolaroidGrid.jpg">
-					<h3 class="media-item__title">Polaroid Grid Animation</h3>
-				</a>
-			</section>
+				<div class="col-lg-12">
+					<div class="col-lg-4">
+						<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fjaevanaldover&width=250&height=80&layout=standard&size=large&show_faces=true&appId"
+					 	 width="250" height="80" style="border:none;overflow:hidden" 
+				 	 	 scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				 	</div class="col-lg-4">
+				 	<div>
+						<a href="https://twitter.com/intent/tweet?screen_name=JVAldover" class="twitter-mention-button" data-show-count="false">Tweet to @JVAldover</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				 	</div>
+				</div>
+			</div>-->
 		</main>
+
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0];
+  			if (d.getElementById(id)) return;
+  				js = d.createElement(s); js.id = id;
+  				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/anime.min.js"></script>
 		<script src="js/main.js"></script>
