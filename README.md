@@ -21,3 +21,17 @@ Resources gathered use advance javascript codes which will help me develop my sk
 
 Will Start creating project at 19:00PHT
 //end of current session
+
+February 8, 2017(11:50PHT)
+Starting on Homepage will sync after getting internet connections
+Using a SVG Guide from Karen Menezes "https://www.smashingmagazine.com/2015/05/creating-responsive-shapes-with-clip-path"
+
+February 8, 2017(18:00PHT)
+Almost done with the homepage, tried adding a loading screen for the site but had a few issues.
+Added SVG, JQuery, Javascript, CSS3 in the current homepage
+the homepage layout was forked from "https://tympanus.net/codrops/2016/08/10/multi-layout-slideshow/" by Mary Lou
+added additional javascripts and css to simplify and changed containing images and information
+
+starting some research and trying out other layouts for the other pages
+
+//Ending session around (21:00PHT)
