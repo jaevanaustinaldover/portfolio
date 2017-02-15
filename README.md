@@ -45,3 +45,9 @@ I will update this later after accomplishing about me page and portfolio page.//
 //cont... (12:50PHT)
 Finish with About Page now currently doing Portfolio with similar design with About page
 Having trouble on how do I manage the contents but Ill do something about it later.
+
+//cont...(15:55PHT)
+Portfolio almost done. Images and information.php to be added later this evening
+Now going to start Gallery, going to fork the idea and add my own flare to it
+Gallery was based from https://tympanus.net/codrops/2015/10/15/effect-ideas-for-image-grids/ by Mary Lou.
+Thanks for the Help Mary Lou, going to use Demo 6 for this project.
