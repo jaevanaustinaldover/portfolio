@@ -5,8 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Homepage</title>
-		<meta name="description" content="simple portfolio homepage with a dynamic slideshow" />
-		<meta name="keywords" content="slideshow, images, layout, asymmetric, css, html, javascript, template, svg, CSS3, JQuery." />
 		<meta name="author" content="Jae Van Austin Aldover" />
 		<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -54,17 +52,16 @@
 				<h1 class="codrops-header__title" id="port_header">Jae Van Austin Aldover</h1>
 				<p class="codrops-header__tagline" id="port_tagline">A Personal Web Portfolio</p>
 				<nav class="dummy-links">
-					<a class="dummy-links__link dummy-links__link--current port_nav" href="#">Home</a>
-					<a class="dummy-links__link port_nav" href="../about/about.php">About Me</a>
-					<a class="dummy-links__link port_nav" href="#">Portfolio</a>
-					<a class="dummy-links__link port_nav" href="#">Gallery</a>
-					<a class="dummy-links__link port_nav" href="#">Contact</a>
+					<a class="dummy-links__link port_nav" href="about/index.php">About Me</a>
+					<a class="dummy-links__link port_nav" href="portfolio/index.php">Portfolio</a>
+					<a class="dummy-links__link port_nav" href="gallery/index.php">Gallery</a>
+					<a class="dummy-links__link port_nav" href="contact/index.php">Contact</a>
 				</nav>
 			</header>
 			<div class="slideshow" tabindex="0">
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.5.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/jansport1.png);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/schoolpic1.jpg);"></div></div>
 					</div>
@@ -77,11 +74,11 @@
 				</div><!-- /slide -->
 				<div class="slide slide--layout-2" data-layout="layout2">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/6.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/5.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/6.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/7.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/9.jpg);"><h4 class="slide__img-caption">Today is someday</h4></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.2.jpg);"><h4 class="slide__img-caption">Today is someday</h4></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">Crazy Bunch</h3>
@@ -96,11 +93,13 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/15.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/13.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/14.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/12.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/jansport2.png);"></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">What I do is what I like</h3>
-						<p class="slide__title-sub" id="port_subslide">Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do.</p>
+						<p class="slide__title-sub" id="port_subslide">Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do.
+							<a href="about/index.php#mylikes">Likes</a> & <a href="about/index.php#mydislikes">Dislikes</a>
+						</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
@@ -112,7 +111,8 @@
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">Goals and Dreams</h3>
-						<p class="slide__title-sub" id="port_subslide">Remember that nothing worthwhile is easy. Experiencing hardship is part of the journey.</p>
+						<p class="slide__title-sub" id="port_subslide">Remember that nothing worthwhile is easy. Experiencing hardship is part of the journey.
+							<a href="about/index.php#mygoals" style="font-style: normal;">Read More . . . </a></p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-5" data-layout="layout5">
