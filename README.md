@@ -41,3 +41,7 @@ I finished the about me page but never recorded it due to the lack of internet i
 Created a responsive navbar that will be use for the some pages (portfolio page)
 Almost done with about me page. Adding some additional elements and I might create a footer.html to add in all of my pages.
 I will update this later after accomplishing about me page and portfolio page.//session cont...
+
+//cont... (12:50PHT)
+Finish with About Page now currently doing Portfolio with similar design with About page
+Having trouble on how do I manage the contents but Ill do something about it later.
