@@ -35,3 +35,9 @@ added additional javascripts and css to simplify and changed containing images a
 starting some research and trying out other layouts for the other pages
 
 //Ending session around (21:00PHT)
+
+//Edited Feb 15, 2017 (11:30PHT)
+I finished the about me page but never recorded it due to the lack of internet in my part.
+Created a responsive navbar that will be use for the some pages (portfolio page)
+Almost done with about me page. Adding some additional elements and I might create a footer.html to add in all of my pages.
+I will update this later after accomplishing about me page and portfolio page.//session cont...
