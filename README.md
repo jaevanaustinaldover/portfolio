@@ -51,3 +51,7 @@ Portfolio almost done. Images and information.php to be added later this evening
 Now going to start Gallery, going to fork the idea and add my own flare to it
 Gallery was based from https://tympanus.net/codrops/2015/10/15/effect-ideas-for-image-grids/ by Mary Lou.
 Thanks for the Help Mary Lou, going to use Demo 6 for this project.
+
+Feb 16, 2017(13:17)
+Everything is done, I didn't have the time to add a better responsive website so it kinda sucks.
+All additional changes will be recorded for documentation purposes. Added a really simple email sending for remarks and feedbacks on contact's page and fixed the galley to be almost responsive
