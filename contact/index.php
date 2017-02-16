@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    header('Location: thankyou.php');
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
 				</nav>
 			</header>
 			<div class="col-lg-12">
-				<form action="thanks.php" method="POST" class="form-horizontal">
+				<form method="POST" class="form-horizontal">
 					<div class="col-lg-12">
 						<br>
 						<br>
@@ -88,7 +88,7 @@ if(isset($_POST['submit'])){
 								<div class="col-lg-offset-4 col-lg-8">
 									<button name="submit"
 									class="btn btn-success">
-									Register
+									Submit
 									</button>
 								</div>
 							</div>

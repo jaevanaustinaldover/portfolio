@@ -13,9 +13,9 @@
 		<div class="container">
 			<div class="cbp-af-header">
 				<div class="cbp-af-inner">
-					<h1 style="padding-left: 30px;
-					font-size: 75px;
-					font-family: 'Caveat Brush', cursive;">About me</h1>
+					<h1 style="font-size: 50px;
+					font-family: 'Caveat Brush', cursive;"
+					class="pull-left">About me</h1>
 					<nav>
 						<a class="mynav" href="../homepage.php">Home</a>
 						<a class="mynav" href="../portfolio/index.php">Portfolio</a>

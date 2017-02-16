@@ -66,9 +66,9 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/schoolpic1.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main" id="port_slide">Who am I?</h3>
-						<p class="slide__title-su" id="port_subslide">You can understand me better first hand by checking things about me. 
-							<a href="about/index.php">Read more</a>
+						<h3 class="slide__title-main" id="port_slide" style="font-family: 'Gloria Hallelujah', cursive;">Who am I?</h3>
+						<p class="slide__title-su" id="port_subslide" style="font-family: 'Gloria Hallelujah', cursive;">You can understand me better first hand by checking things about me. 
+							<a href="about/index.php" style="font-family: 'Gloria Hallelujah', cursive;">Read more</a>
 						</p>
 					</div>
 				</div><!-- /slide -->
@@ -81,8 +81,8 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/audsbday.jpg);"><h4 class="slide__img-caption">Today is someday</h4></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main" id="port_slide">Crazy Bunch</h3>
-						<p class="slide__title-sub" id="port_subslide">Though I prefer to be alone at times. When I'm available and not quite busy, I spend my time mostly with my friends</given>
+						<h3 class="slide__title-main" id="port_slide" style="font-family: 'Gloria Hallelujah', cursive;">Crazy Bunch</h3>
+						<p class="slide__title-sub" id="port_subslide" style="font-family: 'Gloria Hallelujah', cursive;">Though I prefer to be alone at times. When I'm available and not quite busy, I spend my time mostly with my friends</given>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-3" data-layout="layout3">
@@ -96,9 +96,9 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url();"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main" id="port_slide">What I do is what I like</h3>
-						<p class="slide__title-sub" id="port_subslide">Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do.
-							<a href="about/index.php#mylikes">Likes</a> & <a href="about/index.php#mydislikes">Dislikes</a>
+						<h3 class="slide__title-main" id="port_slide" style="font-family: 'Gloria Hallelujah', cursive;">What I do is what I like</h3>
+						<p class="slide__title-sub" id="port_subslide" style="font-family: 'Gloria Hallelujah', cursive;">Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do.
+							<a href="about/index.php#mylikes" style="font-family: 'Gloria Hallelujah', cursive;">Likes</a> & <a href="about/index.php#mydislikes" style="font-family: 'Gloria Hallelujah', cursive;">Dislikes</a>
 						</p>
 					</div>
 				</div><!-- /slide -->
@@ -110,8 +110,8 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic9.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main" id="port_slide">Goals and Dreams</h3>
-						<p class="slide__title-sub" id="port_subslide">Remember that nothing worthwhile is easy. Experiencing hardship is part of the journey.
+						<h3 class="slide__title-main" id="port_slide" style="font-family: 'Gloria Hallelujah', cursive;">Goals and Dreams</h3>
+						<p class="slide__title-sub" id="port_subslide" style="font-family: 'Gloria Hallelujah', cursive;">Remember that nothing worthwhile is easy. Experiencing hardship is part of the journey.
 							<a href="about/index.php#mygoals" style="font-style: normal;">Read More . . . </a></p>
 					</div>
 				</div><!-- /slide -->
@@ -137,9 +137,9 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic8.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main" id="port_slide">Life Gallery</h3>
-						<p class="slide__title-sub" id="port_subslide">I know I'm still growing more and more as I experience life. But my main goal is to leave a mark.
-						<a href="gallery/index.php">View Gallery</a>
+						<h3 class="slide__title-main" id="port_slide" style="font-family: 'Gloria Hallelujah', cursive;">Life Gallery</h3>
+						<p class="slide__title-sub" id="port_subslide" style="font-family: 'Gloria Hallelujah', cursive;">I know I'm still growing more and more as I experience life. But my main goal is to leave a mark.
+						<a href="gallery/index.php" style="font-family: 'Gloria Hallelujah', cursive;">View Gallery</a>
 						</p>
 					</div>
 				</div><!-- /slide -->
@@ -150,9 +150,9 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic13.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main" id="port_slide">Plans for the Future</h3>
-						<p class="slide__title-sub" id="port_subslide">So the future has always been uncertain, unpredictable, unknown. But making plans will steer me to a better one
-							<a href="portfolio/index.php">View Portfolio.</a>
+						<h3 class="slide__title-main" id="port_slide" style="font-family: 'Gloria Hallelujah', cursive;">Plans for the Future</h3>
+						<p class="slide__title-sub" id="port_subslide" style="font-family: 'Gloria Hallelujah', cursive;">So the future has always been uncertain, unpredictable, unknown. But making plans will steer me to a better one
+							<a href="portfolio/index.php" style="font-family: 'Gloria Hallelujah', cursive;">View Portfolio.</a>
 						</p>
 						</p>
 					</div>
@@ -164,9 +164,9 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic2.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h3 class="slide__title-main" id="port_slide">You can talk to me</h3>
-						<p class="slide__title-sub" id="port_subslide">Im currently studying, but I'm usually available online. Email me or message me through facebook
-							<a href="contact/index.php">Contact me.</a>
+						<h3 class="slide__title-main" id="port_slide" style="font-family: 'Gloria Hallelujah', cursive;">You can talk to me</h3>
+						<p class="slide__title-sub" id="port_subslide"style="font-family: 'Gloria Hallelujah', cursive;">Im currently studying, but I'm usually available online. Email me or message me through facebook
+							<a href="contact/index.php" style="font-family: 'Gloria Hallelujah', cursive;">Contact me.</a>
 						</p>
 						</p>
 					</div>
@@ -191,6 +191,9 @@
 		</main>
 		 <!-- FOOTER -->
 
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Gloria+Hallelujah|Indie+Flower');
+		</style>
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {

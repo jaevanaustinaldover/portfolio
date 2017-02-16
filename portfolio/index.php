@@ -13,9 +13,9 @@
 		<div class="container">
 			<div class="cbp-af-header">
 				<div class="cbp-af-inner">
-					<h1 style="padding-left: -50px;
-					font-size: 75px;
-					color: black; font-family: Times, serif; font-weight: bolder;">Portfolio</h1>
+					<h1 style="font-size: 75px;
+					color: black; font-family: Times, serif; font-weight: bolder;"
+					class="pull-left">Portfolio</h1>
 					<nav>
 						<a class="mynav" href="../homepage.php">Home</a>
 						<a class="mynav" href="../about/index.php">About Me</a>
