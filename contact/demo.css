@@ -47,7 +47,7 @@ a:focus {
 
 /* Buttons */
 
-.btn {
+.btnnav {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
@@ -58,11 +58,11 @@ a:focus {
 	background: none;
 }
 
-.btn:focus {
+.btnnav:focus {
 	outline: none;
 }
 
-.btn:hover {
+.btnnav:hover {
 	color: #fff;
 }
 
@@ -192,6 +192,7 @@ a:focus {
 	display: inline-block;
 	margin: 0 1.5em 0 0;
 	color: #fff;
+	font-size: 19.5px;
 }
 
 .dummy-links__link:hover,
@@ -305,4 +306,27 @@ a:focus {
 		margin: 0 0.25em 0.75em 0;
 	}
 
+}
+
+/* My Personal Codes */
+
+#port_header{
+	font-size: 50px;
+	color: white;
+	font-family: 'Caveat Brush', cursive;
+}
+
+#port_tagline{
+	font-size: 30px;
+	color: #e8a847;
+	font-family: 'Indie Flower', cursive;
+}
+
+#port_slide{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#port_subslide{
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
 }

@@ -61,24 +61,24 @@
 			<div class="slideshow" tabindex="0">
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.5.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/jansport1.png);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/jansport2.png);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/schoolpic1.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">Who am I?</h3>
 						<p class="slide__title-su" id="port_subslide">You can understand me better first hand by checking things about me. 
-							<a href="about/about.php">Read more</a>
+							<a href="about/index.php">Read more</a>
 						</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-2" data-layout="layout2">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.3.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.1.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.2.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.1.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/slide1.2.jpg);"><h4 class="slide__img-caption">Today is someday</h4></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/audsbday2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mikeebday.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/audsbday2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mikeebday.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/audsbday.jpg);"><h4 class="slide__img-caption">Today is someday</h4></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">Crazy Bunch</h3>
@@ -87,13 +87,13 @@
 				</div><!-- /slide -->
 				<div class="slide slide--layout-3" data-layout="layout3">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/10.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/11.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/15.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/13.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/14.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic5	.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/jansport2.png);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url();"></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">What I do is what I like</h3>
@@ -104,10 +104,10 @@
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/10.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/8.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/11.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/13.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic10.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic9.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">Goals and Dreams</h3>
@@ -117,56 +117,56 @@
 				</div><!-- /slide -->
 				<div class="slide slide--layout-5" data-layout="layout5">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/1.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/2.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/3.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/4.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/5.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/6.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/7.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/8.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/10.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/11.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/12.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/13.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/14.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/15.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/16.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/17.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/18.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic5.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic6.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic7.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic9.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic10.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic5.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic6.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic7.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic8.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">Life Gallery</h3>
 						<p class="slide__title-sub" id="port_subslide">I know I'm still growing more and more as I experience life. But my main goal is to leave a mark.
-						<a href="gallery/default.php">View Gallery</a>
+						<a href="gallery/index.php">View Gallery</a>
 						</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-6" data-layout="layout6">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/14.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/11.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/familypic8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/jansport1.png);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic13.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">Plans for the Future</h3>
 						<p class="slide__title-sub" id="port_subslide">So the future has always been uncertain, unpredictable, unknown. But making plans will steer me to a better one
-							<a href="portfolio/default.php">View Portfolio.</a>
+							<a href="portfolio/index.php">View Portfolio.</a>
 						</p>
 						</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-7" data-layout="layout7">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/16.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/1.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(imgs/mypic2.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<h3 class="slide__title-main" id="port_slide">You can talk to me</h3>
 						<p class="slide__title-sub" id="port_subslide">Im currently studying, but I'm usually available online. Email me or message me through facebook
-							<a href="contact/default.php">Contact me.</a>
+							<a href="contact/index.php">Contact me.</a>
 						</p>
 						</p>
 					</div>
@@ -189,6 +189,7 @@
 				</div>
 			</div>-->
 		</main>
+		 <!-- FOOTER -->
 
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		<div id="fb-root"></div>

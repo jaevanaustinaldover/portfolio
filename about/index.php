@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>About Me</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../about/css/component.css">
 		<link rel="stylesheet" type="text/css" href="../about/css/default.css">
@@ -19,8 +19,8 @@
 					<nav>
 						<a class="mynav" href="../homepage.php">Home</a>
 						<a class="mynav" href="../portfolio/index.php">Portfolio</a>
-						<a class="mynav" href="#">Gallery</a>
-						<a class="mynav" href="#">Contact</a>
+						<a class="mynav" href="../gallery/index.php">Gallery</a>
+						<a class="mynav" href="../contact/index.php">Contact</a>
 					</nav>
 				</div>
 			</div>
@@ -87,6 +87,12 @@
 				</section>
 			</div>
 		</div>
+
+		<footer style="color: grey; font-family: Times, serif;">
+        	<p class="pull-right"><a href="#" style="color: white; font-family: Times, serif;">Back to top</a></p>
+        	<p>© Jae Van Aldover · <a href="#" style="color: white; font-family: Times, serif;">Privacy</a> · <a href="#" style="color: white; font-family: Times, serif;">Terms</a></p>
+     	</footer>
+
 		<script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.min.js"></script>
 		<style>
