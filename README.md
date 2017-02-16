@@ -55,3 +55,6 @@ Thanks for the Help Mary Lou, going to use Demo 6 for this project.
 Feb 16, 2017(13:17)
 Everything is done, I didn't have the time to add a better responsive website so it kinda sucks.
 All additional changes will be recorded for documentation purposes. Added a really simple email sending for remarks and feedbacks on contact's page and fixed the galley to be almost responsive
+
+//cont(19:40)
+Project Presentation is done, going add additional files and move the homepage to the root folder then everything's done
